@@ -1,0 +1,104 @@
+body {
+
+background-image: url("cloudy.jpg");
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial Narrow, Verdana, sans-serif;
+  color: dark grey;
+}
+
+#headTwo{
+text-align: center;
+font-size: 32px;
+text-decoration: underline;
+color: white;
+
+
+}
+
+#parOne{
+font-style: italic;
+margin-top: 2%;
+text-align: center;
+font-size: 24px;
+}
+
+.picOne{
+
+float: left;
+margin-top: 3%;
+
+}
+
+.picTwo{
+  float: right;
+  margin-top: 3%;
+}
+
+.picThree{
+
+  float: left;
+  margin-top: 1.5%;
+}
+
+.picFour{
+
+float: right;
+margin-top: 1.5%;
+
+}
+
+#dataPONE{
+
+color: white;
+font-size: 20px;
+}
+
+#dataHTHREE{
+  text-decoration: underline;
+  color: white;
+  font-size: 28px;
+}
+
+.button{
+     appearance: auto;
+     text-decoration: none;
+     color: white;
+}
+
+
+
+.pic{
+  margin-left: 30.5%;
+}
+
+@media only screen and (min-width: 400px) {
+ body {
+   background-image: url(cloudy.jpg);
+ }
+
+}
+
+th, td {
+  border-bottom: 1px solid Blue;
+  color: white;
+}
+
+tr:hover {background-color:Grey;}
+
+table {
+  width: 50%;
+}
+
+th {
+  height: 100px;
+  text-align: left;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}

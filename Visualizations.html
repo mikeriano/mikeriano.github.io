@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<link rel="shortcut icon" href="me_XQe_icon.ico" type="icon">
+
+<!--I tried to make this via the styles.css page, however, it would not work properly.
+it was left here in the body*/-->
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: Grey;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="#Visualizations">Visualizations</a>
+  <a href="Comparison.html">Comparison</a>
+  <a href="Data.html">Data</a>
+  <a href="https://github.com/mikeriano/">Github</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2 id="headTwo">Visualizations</h2>
+  <h3 id="dataPONE">Image Selection</h3>
+
+  <form  class="button" action="fig1.html">
+    <input type="submit" value="Figure 1" />
+</form>
+
+<form class="button" action="fig2.html">
+    <input type="submit" value="Figure 2" />
+</form>
+
+<form class="button" action="fig3.html">
+    <input type="submit" value="Figure 3" />
+</form>
+
+<form class="button" action="fig4.html">
+    <input type="submit" value="Figure 4" />
+</form>
+
+
+</div>
+
+</body>
+</html>
